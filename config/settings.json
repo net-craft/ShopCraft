@@ -1,30 +1,30 @@
 {
-    "cartTitle": "ProFinder",
-    "cartDescription": "ProFinder Charts",
-    "cartLogo": "/uploads/logo.png",
-    "baseUrl": "https://prochip.herokuapp.com:1111",
+    "cartTitle": "RepairIt",
+    "cartDescription": "RepairIt",
+    "cartLogo": "",
+    "baseUrl": "http://localhost:1111",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
-    "emailUser": "montgomerykern@icloud.com",
-    "emailPassword": "nope",
-    "emailAddress": "montgomerykern@icloud.com",
+    "emailUser": "hi@markmoffat.com",
+    "emailPassword": "this_is_the_smtp_password",
+    "emailAddress": "hi@markmoffat.com",
     "productsPerRow": 3,
     "productsPerPage": 6,
-    "footerHtml": "<p></p>",
+    "footerHtml": "&lt;h4 class=&quot;text-center&quot;&gt;Powered by expressCart&lt;/h4&gt;",
     "googleAnalytics": "",
     "injectJs": "",
-    "customCss": "body,html {font-size: 16px;background-color: #e6e5d8;}
-    .footer {background-color: #7d7d74;}
-    .img-thumbnail {background-color: #e6e5d8;}
-    ",
+    "customCss": "",
     "currencySymbol": "$",
-    "paymentGateway": "paypal",
-    "databaseConnectionString": "mongodb://mjkern:Sliver88@ds047305.mlab.com:47305/heroku_7tlmm24m",
+    "paymentGateway": "stripe",
+    "databaseConnectionString": "mongodb://mkern:sliver88@ds139576.mlab.com:39576/heroku_ll5zj45t",
     "theme": "Cloth",
-    "trackStock": true,
+    "trackStock": false,
     "orderHook": "",
-    "availableLanguages": ["en"],
+    "availableLanguages": [
+        "en",
+        "it"
+    ],
     "defaultLocale": "en",
     "maxQuantity": 25,
     "twitterHandle": "",
@@ -42,5 +42,5 @@
         }
     },
     "showRelatedProducts": true,
-    "showHomepageVariants": true
+    "showHomepageVariants": false
 }

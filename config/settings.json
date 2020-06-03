@@ -1,0 +1,46 @@
+{
+    "cartTitle": "ProFinder",
+    "cartDescription": "ProFinder Charts",
+    "cartLogo": "/uploads/logo.png",
+    "baseUrl": "https://prochip.herokuapp.com:1111",
+    "emailHost": "smtp-mail.outlook.com",
+    "emailPort": 587,
+    "emailSecure": false,
+    "emailUser": "montgomerykern@icloud.com",
+    "emailPassword": "nope",
+    "emailAddress": "montgomerykern@icloud.com",
+    "productsPerRow": 3,
+    "productsPerPage": 6,
+    "footerHtml": "<p></p>",
+    "googleAnalytics": "",
+    "injectJs": "",
+    "customCss": "body,html {font-size: 16px;background-color: #e6e5d8;}
+    .footer {background-color: #7d7d74;}
+    .img-thumbnail {background-color: #e6e5d8;}
+    ",
+    "currencySymbol": "$",
+    "paymentGateway": "paypal",
+    "databaseConnectionString": "mongodb://mjkern:Sliver88@ds047305.mlab.com:47305/heroku_7tlmm24m",
+    "theme": "Cloth",
+    "trackStock": true,
+    "orderHook": "",
+    "availableLanguages": ["en"],
+    "defaultLocale": "en",
+    "maxQuantity": 25,
+    "twitterHandle": "",
+    "facebookAppId": "",
+    "productOrderBy": "date",
+    "productOrder": "descending",
+    "modules": {
+        "enabled": {
+            "shipping": "shipping-basic",
+            "discount": "discount-voucher"
+        },
+        "loaded": {
+            "shipping": {},
+            "discount": {}
+        }
+    },
+    "showRelatedProducts": true,
+    "showHomepageVariants": true
+}
